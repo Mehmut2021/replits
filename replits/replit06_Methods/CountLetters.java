@@ -12,6 +12,19 @@ public class CountLetters {
     public static String countLetters(String str) {
         String result = "";
 
+        char[] strChars = str.toCharArray();
+
+        for (int i = 0; i < strChars.length; i++) {
+            int count = 0;
+            for (int j = 0; j < strChars.length; j++) {
+                if(strChars[i]==strChars[j]){
+                    count++;
+                }
+            }
+            if(!result.contains(""+strChars[i])){
+                result += "" + count + strChars[i];
+            }
+        }
 
 
         return result;
