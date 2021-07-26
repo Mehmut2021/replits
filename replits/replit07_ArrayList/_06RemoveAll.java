@@ -5,7 +5,7 @@ package replit07_ArrayList;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
-
+//IMPORTANT NOTE: REPLIT HAS A BUG AND FAILS TASK3
 public class _06RemoveAll {
 
     //create your method below
