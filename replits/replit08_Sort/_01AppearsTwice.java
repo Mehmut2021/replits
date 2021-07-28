@@ -21,13 +21,12 @@ public class _01AppearsTwice {
     public static boolean appearsTwice(String target, String sentence) {
         //write your codes here:
         boolean result = false;
-        ArrayList<String> sentenceWords = new ArrayList<String>(Arrays.asList(sentence.split(" ")));
+        ArrayList<String> sentenceWords = new ArrayList<>(Arrays.asList(sentence.split(" ")));
         for (int i = 0; i < sentenceWords.size(); i++) {
-            String eachWordClean = "";
             String eachWord = sentenceWords.get(i);
             Character last = eachWord.charAt(eachWord.length() - 1);
             if (eachWord.length() > 1 && !Character.isLetterOrDigit(last)) {
-                eachWordClean = eachWord.substring(0, eachWord.length() - 1);
+                String eachWordClean = eachWord.substring(0, eachWord.length() - 1);
                 sentenceWords.set(i, eachWordClean);
             }
         }
