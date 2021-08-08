@@ -1,4 +1,4 @@
-package replit08_Sort;
+package replit_Sort;
 
 import java.util.*;
 
