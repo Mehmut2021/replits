@@ -3,7 +3,7 @@ package replit07_ArrayList;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class DeliveryCalculator {
+public class _12DeliveryCalculator {
 
 
     public static int refuel_times(ArrayList<Integer> deliveries, int max_fuel) {

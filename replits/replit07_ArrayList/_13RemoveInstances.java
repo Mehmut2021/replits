@@ -3,7 +3,7 @@ package replit07_ArrayList;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class RemoveInstances {
+public class _13RemoveInstances {
 
     public static ArrayList<Integer> removeInst(ArrayList<Integer> r, Integer n) {
 
