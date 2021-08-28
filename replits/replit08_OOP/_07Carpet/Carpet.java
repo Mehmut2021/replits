@@ -4,9 +4,12 @@ package replit08_OOP._07Carpet;
 //requirements lists totalPrice as boolean but the results in Tasks are int.
 public class Carpet {
 
-    double width, length, unitPrice;
+    private double width, length, unitPrice;
     int totalPrice;
     public boolean isPersian;
+
+    static int a, b, c;
+
 
     public Carpet(){
         width = 300;
@@ -27,6 +30,7 @@ public class Carpet {
             totalPrice = (int) ((width + length) * unitPrice + 200);
         }
     }
+
 
 }
 /*
